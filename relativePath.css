@@ -1,3 +1,8 @@
+:root {
+  --color1: #66d2ce;
+  --color2: #d98324;
+}
+
 * {
   padding: 0;
   margin: 0;
@@ -8,4 +13,5 @@
 
 body {
   font-family: sans-serif, Montserrat;
+  background-color: var(--color1);
 }
