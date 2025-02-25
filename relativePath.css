@@ -1,6 +1,9 @@
 :root {
   --color1: #66d2ce;
   --color2: #d98324;
+  --color3: #56021f;
+  --color4: #c62300;
+  --color5: #3d3bf3;
 }
 
 * {
@@ -19,4 +22,29 @@ body {
 .paragraph > p {
   font-size: 1.2rem;
   color: var(--color2);
+}
+
+.content {
+  margin: 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.content h2 {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 30px;
+  color: var(--color3);
+}
+
+.content > div:nth-child(2) {
+  color: var(--color4);
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.content > div:nth-child(3) {
+  color: var(--color5);
+  font-size: 20px;
+  font-weight: 500;
 }
