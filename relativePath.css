@@ -15,3 +15,8 @@ body {
   font-family: sans-serif, Montserrat;
   background-color: var(--color1);
 }
+
+.paragraph > p {
+  font-size: 1.2rem;
+  color: var(--color2);
+}
